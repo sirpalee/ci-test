@@ -1,0 +1,11 @@
+dist: trusty
+os:
+  - linux
+compiler:
+  - gcc
+branches:
+  only:
+    - master
+
+script:
+  - gcc -o main main.cpp
